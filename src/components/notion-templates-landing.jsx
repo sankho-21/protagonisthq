@@ -1,27 +1,27 @@
 'use client';
 
 import { Button } from "@/components/ui/button";
-import Link from "next/link";
 import Image from "next/image";
+import { ArrowRight } from "lucide-react";
 
 const templates = [
   {
     title: "Protagonist Blueprint",
     url: 'https://protagonisthq.com/wp-content/uploads/2024/08/final-page-4-1536x864.png',
     description: "",
-    price: "₹849"
+    price: "₹ 849"
   },
   {
     title: "Content Brain",
     url: 'https://protagonisthq.com/wp-content/uploads/2024/08/CB-thumb-5-1536x864.png',
     description: "",
-    price: "₹649"
+    price: "₹ 649"
   },
   {
     title: "Academic Weapon",
     url: 'https://protagonisthq.com/wp-content/uploads/2024/08/academic_weapon_thumbnail-4-1536x864.png',
     description: "",
-    price: ""
+    price: "₹ 449"
   },
   {
     title: "Assignment Headquaters",
@@ -46,45 +46,32 @@ const templates = [
 export function NotionTemplatesLanding() {
   return (
     <div className="flex flex-col min-h-screen">
-      <header className="w-full py-6 px-4 sm:px-6 lg:px-8">
-        <div className="container mx-auto flex justify-between items-center">
-          <Link href="/" className="text-2xl font-bold">
-            NotionTemplates
-          </Link>
-          <nav className="hidden md:flex space-x-4">
-            <Link href="#templates" className="text-sm font-medium hover:underline">
-              Templates
-            </Link>
-            <Link href="#" className="text-sm font-medium hover:underline">
-              About
-            </Link>
-            <Link href="#" className="text-sm font-medium hover:underline">
-              Contact
-            </Link>
-          </nav>
-          <Button variant="outline">Sign Up</Button>
-        </div>
-      </header>
-      <main className="flex-grow bg-gray-50 text-black">
 
-        <section className="py-20 px-4 sm:px-6 lg:px-8 text-center">
-          <div className="max-w-3xl mx-auto">
-            <h1 className="text-4xl font-extrabold sm:text-5xl md:text-6xl">
-              Protagonist <span>syndrome</span>
+      <main className="flex-grow bg-inherit text-black">
+
+        <section className="py-20 px-4 sm:px-6 lg:px-8 text-center bg-gray-100 flex items-center justify-start">
+          <div className="max-w-5xl mx-auto">
+            <h1 className="text-4xl font-bold sm:text-5xl md:text-8xl italic text-[#438460]">
+              protagonist <span className="font-normal text-[#1f3028]">syndrome</span>
             </h1>
-            <p className="mt-6 text-xl">The best disease you can have</p>
+            <p className="mt-6 text-lg font-semibold text-muted-foreground">the best disease you can have</p>
             <div className="mt-10">
-              <Button size="lg">Browse Templates</Button>
+              <Button size="lg" className='bg-[#43825f]'>Browse Templates</Button>
             </div>
           </div>
         </section>
 
-        <section id="templates" className="py-20 px-4 sm:px-6 bg-gray-50 lg:px-40">
-          <div className="container mx-auto flex flex-col items-center">
-            <h2 className="text-3xl font-bold text-center mb-12 text-black">Featured Templates</h2>
+        <section id="templates" className="py-20 px-4 sm:px-6 bg-inherit lg:px-40 bg-[#eeffe6]">
+          <div className="container mx-auto flex flex-col items-center space-y-12">
+
+            <div className="space-y-4 text-center">
+              <h2 className="text-5xl font-bold italic text-center">Discover Premium Notion Templates</h2>
+              <p className="text-xl font-semibold text-muted-foreground">enhance your productivity with our exclusive notion templates</p>
+            </div>
+
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
               {templates.map((item) => (
-                <div key={item.url} className="w-fit rounded-lg shadow-md overflow-hidden">
+                <div key={item.url} className="w-fit rounded-lg shadow-md overflow-hidden bg-card">
                   <Image
                     src={item.url}
                     alt={`Template ${item.url}`}
@@ -93,21 +80,32 @@ export function NotionTemplatesLanding() {
                     className="w-full h-64 object-contain"
                   />
                   <div className="p-6">
-                    <h3 className="text-xl font-semibold mb-2 text-black">{item.title}</h3>
-                    <p className="text-gray-600 mb-4">A brief description of the template and its features.</p>
-                    <Button className="w-full">View Template</Button>
+                    <div className="w-full flex items-center justify-between">
+                      <h3 className="text-xl font-bold mb-2">{item.title}</h3>
+                      <p className="text-lg font-semibold mb-2">{item.price ? `${item.price}` : 'Free'}</p> {/* Added price */}
+                    </div>
+                    <p className="mb-4">A brief description of the template and its features.</p>
+                    <Button className="w-full bg-[#43825f] hover:bg-[#43825f]/90">View Template</Button>
                   </div>
                 </div>
               ))}
             </div>
+
+            <Button size="lg" className='bg-[#43825f] gap-2 hover:bg-[#43825f]/90'>View All
+              <ArrowRight className="w-4 h-4" />
+            </Button>
+
           </div>
         </section>
+
       </main>
-      <footer className="w-full py-6 px-4 sm:px-6 lg:px-8 bg-gray-800 text-white">
+
+      <footer className="w-full py-6 px-4 sm:px-6 lg:px-8">
         <div className="container mx-auto text-center">
           <p>&copy; {new Date().getFullYear()} NotionTemplates. All rights reserved.</p>
         </div>
       </footer>
+
     </div>
   );
 }
