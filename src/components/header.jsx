@@ -18,7 +18,14 @@ export default function Header() {
                         className="p-1 py-1.5 rounded-md"
                     />
                 </Link>
-                <Button size="lg" className='bg-[#43825f]'>Templates</Button>
+                <div className='flex items-center justify-center gap-4'>
+                    <Link href={'/'}>
+                        <Button variant='secondary' className=''>Home</Button>
+                    </Link>
+                    <Link href={'/templates'}>
+                        <Button className='bg-[#43825f] hover:bg-[#43825f]/90'>Templates</Button>
+                    </Link>
+                </div>
             </div>
 
         </header>
