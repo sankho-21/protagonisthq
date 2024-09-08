@@ -12,9 +12,10 @@ export default function Header() {
             <div className="container mx-auto flex justify-between items-center">
                 <Link href="/" className="text-2xl font-bold">
                     <Image
-                        src={'https://protagonisthq.com/wp-content/uploads/2024/08/cropped-logo-79x60.png'}
-                        width={50}
-                        height={50}
+                        src={'/protag-logo.svg'}
+                        // src={'https://protagonisthq.com/wp-content/uploads/2024/08/cropped-logo-79x60.png'}
+                        width={80}
+                        height={80}
                         className="p-1 py-1.5 rounded-md"
                     />
                 </Link>

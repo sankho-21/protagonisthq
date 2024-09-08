@@ -57,8 +57,8 @@ export default function page() {
       <div className="container mx-auto flex flex-col items-center space-y-12">
 
         <div className="space-y-4 text-center">
-          <h2 className="text-5xl font-bold italic text-center">Discover Premium Notion Templates</h2>
-          <p className="text-xl font-semibold text-muted-foreground">enhance your productivity with our exclusive notion templates</p>
+          <h2 className="text-4xl lg:text-5xl font-bold italic text-center">Discover Premium Notion Templates</h2>
+          <p className="text-base lg:text-xl font-semibold text-muted-foreground">Enhance your Productivity with our Exclusive Notion Templates</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
