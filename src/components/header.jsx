@@ -7,7 +7,7 @@ export default function Header() {
 
     return (
 
-        <header className="w-full py-6 px-4 sm:px-6 lg:px-40">
+        <header className="w-full py-6 px-4 sm:px-6 lg:px-10 xl:px-40">
 
             <div className="container mx-auto flex justify-between items-center">
                 <Link href="/" className="text-2xl font-bold">

@@ -13,7 +13,7 @@ export default function TemplatePage({ template }) {
     const router = useRouter()
 
     return (
-        <div className="container mx-auto py-8 px-40">
+        <div className="w-full py-3 lg:py-8 px-2 lg:px-10 xl:px-40 flex flex-col ">
             <div className="mb-6">
                 <Button
                     variant="ghost"
@@ -24,8 +24,9 @@ export default function TemplatePage({ template }) {
                     Back to Templates
                 </Button>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
-                <Carousel className="w-full h-fit max-w-xs mx-auto md:max-w-3xl col-span-2">
+            <div className="w-full grid grid-cols-1 lg:grid-cols-3 gap-8">
+
+                <Carousel className="w-full lg:max-w-3xl md:col-span-2">
                     <CarouselContent>
                         {template.links.map((link, index) => (
                             <CarouselItem key={index}>
@@ -35,13 +36,19 @@ export default function TemplatePage({ template }) {
                                     width={750}
                                     height={250}
                                     alt={`Template image ${index + 1}`}
-                                    className="object-cover w-full h-auto rounded-md p-1"
+                                    className="object-cover w-full h-auto rounded-md"
                                 />
                             </CarouselItem>
                         ))}
                     </CarouselContent>
-                    <CarouselPrevious />
-                    <CarouselNext />
+                    {/* <div className="hidden md:block">
+                        <CarouselPrevious />
+                        <CarouselNext />
+                    </div>
+                    <div className="block md:hidden">
+                        <CarouselPrevious className='top-56 left-10'/>
+                        <CarouselNext className='top-56 right-10'/>
+                    </div> */}
                 </Carousel>
 
                 <Card className="w-full">
@@ -63,7 +70,7 @@ export default function TemplatePage({ template }) {
                     </CardContent>
                     <CardFooter>
                         <Link href={template.cta} className="w-full">
-                            <Button className="w-full">Enroll Now</Button>
+                            <Button className="w-full">Buy Now</Button>
                         </Link>
                     </CardFooter>
                 </Card>

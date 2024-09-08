@@ -10,10 +10,10 @@ const templatesInfo = [
     description: '',
     links: [
       'https://protagonisthq.com/wp-content/uploads/2024/08/PB-page-1-curved-1024x576.png',
-      'https://protagonisthq.com/wp-content/uploads/2024/08/PB-page-2-riyal-1-1024x576.png',
-      'https://protagonisthq.com/wp-content/uploads/2024/08/PB-page-3-real-1024x576.png',
-      'https://protagonisthq.com/wp-content/uploads/2024/08/PB-page-4-1024x576.png',
-      'https://protagonisthq.com/wp-content/uploads/2024/08/PB-page-5-1024x576.png'
+      // 'https://protagonisthq.com/wp-content/uploads/2024/08/PB-page-2-riyal-1-1024x576.png',
+      // 'https://protagonisthq.com/wp-content/uploads/2024/08/PB-page-3-real-1024x576.png',
+      // 'https://protagonisthq.com/wp-content/uploads/2024/08/PB-page-4-1024x576.png',
+      // 'https://protagonisthq.com/wp-content/uploads/2024/08/PB-page-5-1024x576.png'
     ],
     cta: 'https://nas.io/checkout-global?communityId=668fc923efa0d245b6036dcf&communityCode=PROTAGONISTS&requestor=signupRequestor&sourceInfoType=folder&sourceInfoOrigin=66a4e0f6219e053f42cfff08'
   },
@@ -23,10 +23,10 @@ const templatesInfo = [
     description: '',
     links: [
       'https://protagonisthq.com/wp-content/uploads/2024/08/PB-page-1-curved-1024x576.png',
-      'https://protagonisthq.com/wp-content/uploads/2024/08/PB-page-2-riyal-1-1024x576.png',
-      'https://protagonisthq.com/wp-content/uploads/2024/08/PB-page-3-real-1024x576.png',
-      'https://protagonisthq.com/wp-content/uploads/2024/08/PB-page-4-1024x576.png',
-      'https://protagonisthq.com/wp-content/uploads/2024/08/PB-page-5-1024x576.png'
+      // 'https://protagonisthq.com/wp-content/uploads/2024/08/PB-page-2-riyal-1-1024x576.png',
+      // 'https://protagonisthq.com/wp-content/uploads/2024/08/PB-page-3-real-1024x576.png',
+      // 'https://protagonisthq.com/wp-content/uploads/2024/08/PB-page-4-1024x576.png',
+      // 'https://protagonisthq.com/wp-content/uploads/2024/08/PB-page-5-1024x576.png'
     ],
     cta: 'https://nas.io/protagonists/products/mzxb'
   },
@@ -36,10 +36,10 @@ const templatesInfo = [
     description: '',
     links: [
       'https://protagonisthq.com/wp-content/uploads/2024/08/PB-page-1-curved-1024x576.png',
-      'https://protagonisthq.com/wp-content/uploads/2024/08/PB-page-2-riyal-1-1024x576.png',
-      'https://protagonisthq.com/wp-content/uploads/2024/08/PB-page-3-real-1024x576.png',
-      'https://protagonisthq.com/wp-content/uploads/2024/08/PB-page-4-1024x576.png',
-      'https://protagonisthq.com/wp-content/uploads/2024/08/PB-page-5-1024x576.png'
+      // 'https://protagonisthq.com/wp-content/uploads/2024/08/PB-page-2-riyal-1-1024x576.png',
+      // 'https://protagonisthq.com/wp-content/uploads/2024/08/PB-page-3-real-1024x576.png',
+      // 'https://protagonisthq.com/wp-content/uploads/2024/08/PB-page-4-1024x576.png',
+      // 'https://protagonisthq.com/wp-content/uploads/2024/08/PB-page-5-1024x576.png'
     ],
     cta: 'https://nas.io/protagonists/products/aurb'
   },
@@ -49,10 +49,10 @@ const templatesInfo = [
     description: '',
     links: [
       'https://protagonisthq.com/wp-content/uploads/2024/08/PB-page-1-curved-1024x576.png',
-      'https://protagonisthq.com/wp-content/uploads/2024/08/PB-page-2-riyal-1-1024x576.png',
-      'https://protagonisthq.com/wp-content/uploads/2024/08/PB-page-3-real-1024x576.png',
-      'https://protagonisthq.com/wp-content/uploads/2024/08/PB-page-4-1024x576.png',
-      'https://protagonisthq.com/wp-content/uploads/2024/08/PB-page-5-1024x576.png'
+      // 'https://protagonisthq.com/wp-content/uploads/2024/08/PB-page-2-riyal-1-1024x576.png',
+      // 'https://protagonisthq.com/wp-content/uploads/2024/08/PB-page-3-real-1024x576.png',
+      // 'https://protagonisthq.com/wp-content/uploads/2024/08/PB-page-4-1024x576.png',
+      // 'https://protagonisthq.com/wp-content/uploads/2024/08/PB-page-5-1024x576.png'
     ],
     cta: 'https://nas.io/protagonists/products/ebyt'
   },
@@ -62,10 +62,10 @@ const templatesInfo = [
     description: '',
     links: [
       'https://protagonisthq.com/wp-content/uploads/2024/08/PB-page-1-curved-1024x576.png',
-      'https://protagonisthq.com/wp-content/uploads/2024/08/PB-page-2-riyal-1-1024x576.png',
-      'https://protagonisthq.com/wp-content/uploads/2024/08/PB-page-3-real-1024x576.png',
-      'https://protagonisthq.com/wp-content/uploads/2024/08/PB-page-4-1024x576.png',
-      'https://protagonisthq.com/wp-content/uploads/2024/08/PB-page-5-1024x576.png'
+      // 'https://protagonisthq.com/wp-content/uploads/2024/08/PB-page-2-riyal-1-1024x576.png',
+      // 'https://protagonisthq.com/wp-content/uploads/2024/08/PB-page-3-real-1024x576.png',
+      // 'https://protagonisthq.com/wp-content/uploads/2024/08/PB-page-4-1024x576.png',
+      // 'https://protagonisthq.com/wp-content/uploads/2024/08/PB-page-5-1024x576.png'
     ],
     cta: 'https://nas.io/protagonists/products/mzxb'
   },
@@ -75,10 +75,10 @@ const templatesInfo = [
     description: '',
     links: [
       'https://protagonisthq.com/wp-content/uploads/2024/08/PB-page-1-curved-1024x576.png',
-      'https://protagonisthq.com/wp-content/uploads/2024/08/PB-page-2-riyal-1-1024x576.png',
-      'https://protagonisthq.com/wp-content/uploads/2024/08/PB-page-3-real-1024x576.png',
-      'https://protagonisthq.com/wp-content/uploads/2024/08/PB-page-4-1024x576.png',
-      'https://protagonisthq.com/wp-content/uploads/2024/08/PB-page-5-1024x576.png'
+      // 'https://protagonisthq.com/wp-content/uploads/2024/08/PB-page-2-riyal-1-1024x576.png',
+      // 'https://protagonisthq.com/wp-content/uploads/2024/08/PB-page-3-real-1024x576.png',
+      // 'https://protagonisthq.com/wp-content/uploads/2024/08/PB-page-4-1024x576.png',
+      // 'https://protagonisthq.com/wp-content/uploads/2024/08/PB-page-5-1024x576.png'
     ],
     cta: 'https://nas.io/protagonists/products/mzxb'
   },
