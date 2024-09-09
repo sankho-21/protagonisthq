@@ -19,7 +19,7 @@ export default function page() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
           {templates.map((item) => (
-            <div key={item.url} className="w-fit rounded-lg shadow-md overflow-hidden bg-card">
+            <div key={item.slug} className="w-fit rounded-lg shadow-md overflow-hidden bg-card">
               <Image
                 src={item.imageUrl}
                 alt={`Template ${item.url}`}
@@ -30,9 +30,9 @@ export default function page() {
               <div className="p-6">
                 <div className="w-full flex items-center justify-between">
                   <h3 className="text-xl font-bold mb-2">{item.title}</h3>
-                  <p className="text-lg font-semibold mb-2">{item.price ? `${item.price}` : 'Free'}</p> {/* Added price */}
+                  <p className="text-lg font-semibold mb-2">{item.price ? `${item.price}` : 'Free'}</p>
                 </div>
-                <p className="mb-4">A brief description of the template and its features.</p>
+                <p className="mb-4">{item.shortDescription}</p>
                 <Link href={`/templates/${item.slug}`}>
                   <Button className="w-full bg-[#43825f] hover:bg-[#43825f]/90">View Template</Button>
                 </Link>

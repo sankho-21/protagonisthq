@@ -33,7 +33,7 @@ export default function page() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
             {templates.slice(0, 4).map((item) => (
-              <div key={item.url} className="w-fit rounded-lg shadow-md overflow-hidden bg-card">
+              <div key={item.slug} className="w-fit rounded-lg shadow-md overflow-hidden bg-card">
                 <Image
                   src={item.imageUrl}
                   alt={`Template ${item.title}`}

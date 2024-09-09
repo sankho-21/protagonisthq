@@ -36,17 +36,13 @@ export default function TemplatePage({ template }) {
                 <Card className="w-full">
                     <CardHeader>
                         <CardTitle className="text-2xl font-bold">{template.title}</CardTitle>
-                        <CardDescription>
-                            A customizable Notion template for efficiently organizing tasks, projects, and workflows.
-                        </CardDescription>
+                        <CardDescription>{template.shortDescription}</CardDescription>
                     </CardHeader>
                     <CardContent>
                         <div className="space-y-4">
                             <div className="mt-4">
                                 <h3 className="text-lg font-semibold mb-2">About</h3>
-                                <p className="text-sm text-gray-600">
-                                    This versatile Notion template offers a complete framework for organizing projects, tracking tasks, and managing workflows. Easily customizable, it helps you stay organized and boost productivity across personal or professional tasks.
-                                </p>
+                                <p className="text-sm text-gray-600">{template.description}</p>
                             </div>
                         </div>
                     </CardContent>
