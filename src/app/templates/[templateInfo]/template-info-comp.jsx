@@ -1,12 +1,11 @@
 'use client'
 
+import Link from "next/link";
+import Image from "next/image";
+import { ChevronLeft } from "lucide-react";
+import { useRouter } from "next/navigation";
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
-import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel"
-import { ChevronLeft } from "lucide-react";
-import Image from "next/image";
-import Link from "next/link";
-import { useRouter } from "next/navigation";
 
 export default function TemplatePage({ template }) {
 
@@ -25,31 +24,14 @@ export default function TemplatePage({ template }) {
                 </Button>
             </div>
             <div className="w-full grid grid-cols-1 lg:grid-cols-3 gap-8">
-
-                <Carousel className="w-full lg:max-w-3xl md:col-span-2">
-                    <CarouselContent>
-                        {template.links.map((link, index) => (
-                            <CarouselItem key={index}>
-                                <Image
-                                    key={index}
-                                    src={link}
-                                    width={750}
-                                    height={250}
-                                    alt={`Template image ${index + 1}`}
-                                    className="object-cover w-full h-auto rounded-md"
-                                />
-                            </CarouselItem>
-                        ))}
-                    </CarouselContent>
-                    {/* <div className="hidden md:block">
-                        <CarouselPrevious />
-                        <CarouselNext />
-                    </div>
-                    <div className="block md:hidden">
-                        <CarouselPrevious className='top-56 left-10'/>
-                        <CarouselNext className='top-56 right-10'/>
-                    </div> */}
-                </Carousel>
+                <Image
+                    key={template.title}
+                    src={template.imageUrl}
+                    width={750}
+                    height={250}
+                    alt={template.title}
+                    className="object-cover w-full h-auto rounded-md lg:col-span-2"
+                />
 
                 <Card className="w-full">
                     <CardHeader>
@@ -75,6 +57,6 @@ export default function TemplatePage({ template }) {
                     </CardFooter>
                 </Card>
             </div>
-        </div>
+        </div >
     )
 }

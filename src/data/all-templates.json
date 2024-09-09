@@ -1,0 +1,50 @@
+[
+    {
+        "title": "Protagonist Blueprint",
+        "slug": "the-protagonist-blueprint",
+        "imageUrl": "https://protagonisthq.com/wp-content/uploads/2024/08/final-page-4-1536x864.png",
+        "cta": "https://nas.io/checkout-global?communityId=668fc923efa0d245b6036dcf&communityCode=PROTAGONISTS&requestor=signupRequestor&sourceInfoType=folder&sourceInfoOrigin=66a4e0f6219e053f42cfff08",
+        "description": "",
+        "price": "₹ 849"
+    },
+    {
+        "title": "Content Brain",
+        "slug": "content-brain",
+        "imageUrl": "https://protagonisthq.com/wp-content/uploads/2024/08/CB-thumb-5-1536x864.png",
+        "cta": "https: //nas.io/protagonists/products/mzxb",
+        "description": "",
+        "price": "₹ 649"
+    },
+    {
+        "title": "Academic Weapon",
+        "slug": "academic-weapon",
+        "imageUrl": "https://protagonisthq.com/wp-content/uploads/2024/08/academic_weapon_thumbnail-4-1536x864.png",
+        "cta": "https://nas.io/protagonists/products/aurb",
+        "description": "",
+        "price": "₹ 449"
+    },
+    {
+        "title": "Assignment Headquaters",
+        "slug": "assingment-headquaters",
+        "imageUrl": "https://protagonisthq.com/wp-content/uploads/2024/08/assignment-HQ-thumbnail-3-1536x864.png",
+        "cta": "https://nas.io/protagonists/products/ebyt",
+        "description": "",
+        "price": ""
+    },
+    {
+        "title": "Social Media Content Planner",
+        "slug": "social-media-content-planner",
+        "imageUrl": "https://protagonisthq.com/wp-content/uploads/2024/08/contentplanner-3-1536x864.jpg",
+        "cta": "https://nas.io/protagonists/products/mzxb",
+        "description": "",
+        "price": ""
+    },
+    {
+        "title": "Get Started with Notion",
+        "slug": "get-started-with-notion",
+        "imageUrl": "https://protagonisthq.com/wp-content/uploads/2024/08/Artboard-1-3-1536x864.png",
+        "cta": "https://nas.io/protagonists/products/pzlx",
+        "description": "",
+        "price": ""
+    }
+]
