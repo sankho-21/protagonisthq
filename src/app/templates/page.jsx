@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react'
 import templates from '@/data/all-templates.json'
+import { Card, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 
 export default function page() {
 
@@ -19,25 +20,30 @@ export default function page() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
           {templates.map((item) => (
-            <div key={item.slug} className="w-fit rounded-lg shadow-md overflow-hidden bg-card">
-              <Image
-                src={item.imageUrl}
-                alt={`Template ${item.url}`}
-                width={400}
-                height={300}
-                className="w-full h-64 object-contain"
-              />
-              <div className="p-6">
-                <div className="w-full flex items-center justify-between">
-                  <h3 className="text-xl font-bold mb-2">{item.title}</h3>
-                  <p className="text-lg font-semibold mb-2">{item.price ? `${item.price}` : 'Free'}</p>
-                </div>
-                <p className="mb-4">{item.shortDescription}</p>
-                <Link href={`/templates/${item.slug}`}>
+            <Card className='max-w-lg flex flex-col justify-between'>
+              <CardHeader className="space-y-4">
+                <Image
+                  src={item.imageUrl}
+                  alt={`Template ${item.title}`}
+                  width={400}
+                  height={300}
+                  className="w-auto lg:h-64 object-contain"
+                />
+                <CardTitle className='w-full flex items-center justify-between text-xl font-bold'>
+                  {item.title}
+                  <span className="text-lg font-semibold">{item.price ? `${item.price}` : 'Free'}</span>
+                </CardTitle>
+                <CardDescription>
+                  {item.shortDescription}
+                </CardDescription>
+              </CardHeader>
+
+              <CardFooter className="mt-auto">
+                <Link href={`/templates/${item.slug}`} className='w-full'>
                   <Button className="w-full bg-[#43825f] hover:bg-[#43825f]/90">View Template</Button>
                 </Link>
-              </div>
-            </div>
+              </CardFooter>
+            </Card>
           ))}
         </div>
 
