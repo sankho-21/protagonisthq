@@ -46,7 +46,7 @@ export default function page() {
                     <h3 className="text-xl font-bold mb-2">{item.title}</h3>
                     <p className="text-lg font-semibold mb-2">{item.price ? `${item.price}` : 'Free'}</p> {/* Added price */}
                   </div>
-                  <p className="mb-4">A brief description of the template and its features.</p>
+                  <p className="mb-4">{item.shortDescription}</p>
                   <Link href={`/templates/${item.slug}`}>
                     <Button className="w-full bg-[#43825f] hover:bg-[#43825f]/90">View Template</Button>
                   </Link>
