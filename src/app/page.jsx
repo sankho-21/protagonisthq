@@ -34,7 +34,7 @@ export default function page() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
             {templates.slice(0, 4).map((item) => (
-              <Card className='max-w-lg flex flex-col justify-between' key={item.slug}>
+              <Card className='max-w-lg flex flex-col justify-between' key={item.slug} >
                 <CardHeader className="space-y-4">
                   <Image
                     src={item.imageUrl}
