@@ -17,6 +17,7 @@ export default function Header() {
                         width={80}
                         height={80}
                         className="p-1 py-1.5 rounded-md"
+                        alt='protag logo'
                     />
                 </Link>
                 <div className='flex items-center justify-center gap-4'>
