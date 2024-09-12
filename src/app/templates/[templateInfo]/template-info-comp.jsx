@@ -33,7 +33,7 @@ export default function TemplatePage({ template }) {
                     className="object-cover w-full h-auto rounded-md lg:col-span-2"
                 />
 
-                <Card className="w-full">
+                <Card className="w-auto">
                     <CardHeader>
                         <CardTitle className="text-2xl font-bold">{template.title}</CardTitle>
                         <CardDescription>{template.shortDescription}</CardDescription>
@@ -46,7 +46,7 @@ export default function TemplatePage({ template }) {
                             </div>
                         </div>
                     </CardContent>
-                    <CardFooter>
+                    <CardFooter className='mt-auto'>
                         <Link href={template.cta} className="w-full">
                             <Button className="w-full">Buy Now</Button>
                         </Link>
