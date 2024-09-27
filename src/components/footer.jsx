@@ -9,7 +9,7 @@ export default function Footer() {
                     <Mail className='w-4 h-4' />
                     protagonists.hq@gmail.com
                 </p>
-                <p>&copy; {new Date().getFullYear()} protagonistshq. All rights reserved.</p>
+                <p>&copy; {new Date().getFullYear()} protagonistsyndrome. All rights reserved.</p>
             </div>
         </footer>
     )
