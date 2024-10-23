@@ -20,8 +20,10 @@ export default function RootLayout({ children }) {
         "font-sans antialiased",
         fontSans.variable
       )}>
-        {/* <Header /> */}
+        {/* <div  className="w-full flex items-center justify-center bg-background"> */}
         {children}
+        {/* </div> */}
+        {/* <Header /> */}
         {/* <Footer /> */}
       </body>
     </html>
