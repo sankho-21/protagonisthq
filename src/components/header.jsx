@@ -7,13 +7,12 @@ export default function Header() {
 
     return (
 
-        <header className="w-full py-6 px-4 sm:px-6 lg:px-10 xl:px-40">
+        <header className="w-full py-0 px-4 sm:px-6 lg:px-10 xl:px-40">
 
             <div className="container mx-auto flex justify-between items-center">
                 <Link href="/" className="text-2xl font-bold">
                     <Image
-                        src={'/protag-logo.svg'}
-                        // src={'https://protagonisthq.com/wp-content/uploads/2024/08/cropped-logo-79x60.png'}
+                        src={'/small-logo.svg'}
                         width={80}
                         height={80}
                         className="p-1 py-1.5 rounded-md"
@@ -21,11 +20,11 @@ export default function Header() {
                     />
                 </Link>
                 <div className='flex items-center justify-center gap-4'>
-                    <Link href={'/'}>
+                    {/* <Link href={'/'}>
                         <Button variant='secondary' className=''>Home</Button>
-                    </Link>
+                    </Link> */}
                     <Link href={'/templates'}>
-                        <Button className='bg-[#43825f] hover:bg-[#43825f]/90'>Templates</Button>
+                        <Button className=''>Templates</Button>
                     </Link>
                 </div>
             </div>
